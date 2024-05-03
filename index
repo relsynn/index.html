@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Café SyExoxo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Header -->
+    <header>
+        <h1>Welcome to Café SyExoxo</h1>
+        <nav>
+            <a href="#products">Products</a>
+            <a href="#cart">Cart</a>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Product Section -->
+        <section id="products">
+            <h2>Products</h2>
+            <div class="product-list" id="productList">
+                <!-- Products will be dynamically inserted here by JavaScript -->
+            </div>
+        </section>
+
+        <!-- Cart Section -->
+        <section id="cart">
+            <h2>Cart</h2>
+            <ul id="cartItems">
+                <!-- Cart items will be dynamically inserted here by JavaScript -->
+            </ul>
+            <p>Total Price: ₱<span id="totalPrice">0.00</span></p>
+            <button onclick="checkout()">Checkout</button>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Café SyExoxo. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
